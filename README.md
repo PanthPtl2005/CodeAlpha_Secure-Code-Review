@@ -34,8 +34,8 @@ The repository contains:
 
 ```
 .
-├── vulnerable_app.py     # SQL Injection vulnerable code
-├── fixed_app.py          # Secure implementation using parameterized queries
+├── sqli.py     # SQL Injection vulnerable code
+├── sqli-fix.py          # Secure implementation using parameterized queries
 ├── templates/
 │   └── login.html        # Login page
 ├── example.db            # SQLite database (auto-created)
